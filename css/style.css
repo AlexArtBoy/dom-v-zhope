@@ -22,6 +22,8 @@
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
 @import url(nice-select.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
@@ -40,8 +42,10 @@ body {
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
 }
+
 
 a {
     color: #1f1f1f;
@@ -223,10 +227,14 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg.jpg);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
 }
 
 .bg-light {
@@ -291,7 +299,7 @@ button {
 
 .call_text {
     width: 100%;
-    float: left;
+    float: right;
 }
 
 .call_text ul {
@@ -300,7 +308,7 @@ button {
 }
 
 .call_text li {
-    float: left;
+    float: right;
     font-size: 18px;
     color: #ffffff;
     padding-left: 35px;
@@ -332,6 +340,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
+    padding-top: 150px;
 }
 
 .banner_taital {
@@ -339,17 +348,17 @@ button {
     float: left;
     font-size: 50px;
     color: #ffffff;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Open Sans', cursive;
     text-align: center;
 }
 
 .banner_taital_1 {
     width: 100%;
     float: left;
-    font-size: 100px;
+    font-size: 60px;
     color: #ffffff;
     font-weight: bold;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Open Sans', cursive;
     text-align: center;
 }
 
@@ -358,9 +367,9 @@ button {
     float: left;
     font-size: 30px;
     color: #ffffff;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Open Sans', cursive;
     text-align: center;
-    padding-top: 115px;
+    padding-top: 10px;
 }
 
 .read_bt {
@@ -408,7 +417,7 @@ button {
     color: #ffffff;
     padding-left: 30px;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .costum_menu li a {
@@ -654,7 +663,8 @@ button {
     border-radius: 100px;
     margin: 0 10px;
     width: 45px;
-    height: 45px
+    height: 45px;
+    
 }
 
 .owl-carousel .owl-nav button.owl-next span,

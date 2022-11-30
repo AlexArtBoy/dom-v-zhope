@@ -129,10 +129,22 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .header_section {
-        background-size: 100%;
+        background-size: cover;
     }
     .banner_section {
-        padding-top: 20px;
+        padding-top: 250px;
+    }
+    .banner_taital_1 {
+        font-size: 50px;
+        color: #fff;
+    }
+    .banner_taital {
+        font-size: 40px;
+        color: #fff;
+    }
+    .banner_text {
+        font-size: 30px;
+        color: #fff;
     }
     .main {
         width: 51%;
@@ -142,7 +154,9 @@
     }
     .banner_text {
         font-size: 30px;
-        padding-top: 80px;
+        /* padding-top: 80px; */
+        margin: 0;
+        padding: 0;
     }
     .read_bt a {
         margin-top: 12px;
@@ -210,16 +224,21 @@
         display: none;
     }
     .banner_taital_1 {
-        font-size: 82px;
+        font-size: 50px;
+        color: #fff;
+    }
+    .banner_taital {
+        font-size: 30px;
+        color: #fff;
     }
     .banner_text {
         font-size: 30px;
-        color: #000;
+        color: #fff;
         padding-top: 0;
     }
     .about_taital {
         width: 100%;
-        font-size: 44px;
+        font-size: 30px;
     }
     .tree_icon {
         margin-top: 0px;
@@ -260,6 +279,12 @@
 @media (min-width: 576px) and (max-width: 767px) {
     .header_section {
         background-size: cover;
+        /* width: auto;
+        float: left;
+        background-image: url(../images/banner-bg.jpg);
+        height: auto;
+        background-size: 100%;
+        background-repeat: no-repeat; */
     }
     .logo {
         width: 40%;
@@ -302,16 +327,16 @@
         display: none;
     }
     .banner_taital {
-        font-size: 40px;
+        font-size: 30px;
         padding-top: 0px;
     }
     .banner_taital_1 {
         font-size: 50px;
-        color: #000;
+        color: white;
     }
     .banner_text {
         font-size: 30px;
-        color: #000;
+        color: white;
         padding-top: 0;
     }
     .tree_icon {
@@ -409,8 +434,7 @@
         padding: .5rem 15px;
     }
     .navbar-toggler {
-        background-color: #fff;
-        border: 1px solid transparent;
+        background-color: white;
     }
     .main {
         display: none;
@@ -448,11 +472,11 @@
     }
     .banner_taital_1 {
         font-size: 50px;
-        color: #000;
+        color: #fff;
     }
     .banner_text {
         font-size: 30px;
-        color: #000;
+        color: #fff;
         padding-top: 0;
     }
     .tree_icon {
