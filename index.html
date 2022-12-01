@@ -35,11 +35,10 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
          
-   
    </head>
    <body>
       <!-- header section start -->
-      <div class="header_section">
+      <div class="header_section" id="home">
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="logo" href="index.html"><img src="images/logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,20 +46,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                     <a class="nav-link" href="index.html">Home</a>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#home">Главная</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="wish.html">Wish</a>
+                     <a class="nav-link" href="#foto">Фото</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="gifts.html">Best Deals</a>
+                     <a class="nav-link" href="#about">О нас</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="testimonial.html">Testimonial</a>
+                     <a class="nav-link" href="#from">От нас</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="contact.html">Contact Us</a>
+                     <a class="nav-link" href="#map">На карте</a>
                   </li>
                </ul>
             </div>
@@ -69,9 +68,10 @@
                   <div class="call_text">
                      <ul>
                         <!-- <li><a href="#"><img src="images/call-icon.png"><span class="padding_left_10"></span></a></li> -->
-                        <li><a href="#"><img src="images/instagram-icon.png"><span class="padding_left_10"></span></a></li>
-                        <!-- <li><a href="#"><img src="images/search-icon.png"></a></li> -->
-                     </ul>
+                        <li><a target="_blank" href="https://www.instagram.com/shalash_19/?igshid=YmMyMTA2M2Y%3D"><img src="images/instagram.png"><span class="padding_left_10"></span></a></li>
+                        <li><a target="_blank" href="https://t.me/shalash_19_channel"><img src="images/telegram.png"><span class="padding_left_10"></span></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/watch?v=mCYoJs3tYXA&t=5s"><img src="images/youtube.png"><span class="padding_left_10"></span></a></li>
+                     </ul> 
                   </div>
                </form>
             </div>
@@ -116,12 +116,22 @@
                <div class="menu_right">
                   <div class="costum_menu">
                      <ul>
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="wish.html">Wish</a></li>
-                        <li><a href="gifts.html">Best Deals</a></li>
-                        <li><a href="testimonial.html">Testimonial</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <div class="donate_bt"><a href="#">Donate Now</a></div>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#home">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#foto">Фото</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#about">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#from">От нас</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#map">На карте</a>
+                        </li>
+                        <!-- <div class="donate_bt"><a href="#">Donate Now</a></div> -->
                      </ul>
                   </div>
                </div>
@@ -130,42 +140,54 @@
          <!-- banner section end -->
       </div>
       <!-- header section start -->
+      <!-- sifts section start -->
+      <div class="gifts_section layout_padding" id="foto">
+         <!-- <div class="container">
+            <div class="tree_icon_1"><img src="images/tree-icon.png"></div>
+            <h1 class="gifts_taital">Gifts For You</h1>
+            <div class="image_2"><img src="images/img-2.png"></div>
+         </div> -->
+         <div class="gifts_section_2 layout_padding">
+            <div class="owl-carousel owl-theme">
+               <div class="item"><img src="images/1-photo.png" alt="#" /></div>
+               <div class="item"><img src="images/2-photo.png" alt="#" /></div>
+               <div class="item"><img src="images/3-photo.png" alt="#" /></div>
+               <div class="item"><img src="images/4-photo.png" alt="#" /></div>
+               <div class="item"><img src="images/5-photo.png" alt="#" /></div>
+            </div>
+         </div>
+      </div>
+      <!-- sifts section end -->
       <!-- wine section start -->
-      <div class="about_section layout_padding">
+      <div class="about_section layout_padding" id="about">
          <div class="container">
-            <div class="row">
-               <div class="col-md-6">
+            <div class="row about-block">
+               <div class="col-md-12 col-lg-6 about-block__text">
                   <div class="tree_icon"><img src="images/tree-icon.png"></div>
-                  <h1 class="about_taital">ABOUT <span style="color: #ff3f5c;">EVENTS</span></h1>
-                  <p class="about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons</p>
-                  <div class="readmore_bt"><a href="#">Read More</a></div>
+                  <h1 class="about_taital">Про <span style="color: #ff3f5c;">ШАЛАШ</span></h1>
+                  <p class="about_text">В нашем гостевом домике "шаЛаш" имеется все для комфортного отдыха! 
+                     На первом этаже расположена кухонная зона (плитка, посуда, столовые приборы, чайник, холодильник) с гарнитуром и барной стойкой, к которой прилагаются барные стулья; душевая с необычной шторкой из мягкого стекла; а также зона для отдыха с двумя комфортными диванами, раскладывающимися в спальное место для двоих, и небольшой столик с колесиками.
+                     На втором этаже удобная двухспальная кровать. 
+                     Хочется отметить, что дом выполнен в автомобильном стиле, поэтому практически все детали для уюта сделаны своими руками: светильники из автомобильных фар и крышки ГБЦ, раковина в душевой из коробки передач, раковина на кухне - это бочка из под автомобильного масла.
+                     Некоторые вещи были разработаны и напечатаны на 3d-принтере специально для домика (например, крючки, выключатели).
+                     Для сохранения тепла в доме установлены теплые полы (они регулируются системой "климат-контроль") и печь-камин (да, она не только ради эстетики😉).
+                     На участке имеется большое костровище, bbq с датчиком температуры и степени прожарки, японская баня (по поводу нее спрашивайте отдельно).
+                     Есть парковочные места.
+                     На территории домика установлены камера наблюдения, датчики движения, поэтому за свою безопасность можете быть спокойны.
+                     
+                     У нас тепло, уютно и просто здорово! Ждем вас в гости! </p>
+                  <!-- <div class="readmore_bt"><a href="#">Read More</a></div> -->
                </div>
-               <div class="col-md-6">
+               <div class="col-md-6 about-block__tree-picture">
                   <div class="image_2"><img src="images/img-1.png"></div>
                </div>
             </div>
          </div>
       </div>
       <!-- wine section end -->
-      <!-- sifts section start -->
-      <div class="gifts_section layout_padding">
-         <div class="container">
-            <div class="tree_icon_1"><img src="images/tree-icon.png"></div>
-            <h1 class="gifts_taital">Gifts For You</h1>
-            <div class="image_2"><img src="images/img-2.png"></div>
-         </div>
-         <div class="gifts_section_2 layout_padding">
-            <div class="owl-carousel owl-theme">
-               <div class="item"><img src="images/img-3.png" alt="#" /></div>
-               <div class="item"><img src="images/img-4.png" alt="#" /></div>
-               <div class="item"><img src="images/img-5.png" alt="#" /></div>
-               <div class="item"><img src="images/img-5.png" alt="#" /></div>
-            </div>
-         </div>
-      </div>
-      <!-- sifts section end -->
+
       <!-- testimonial section start -->
-      <div class="testimonial_section layout_padding">
+      <!-- <div class="testimonial_section layout_padding">
          <div class="container">
             <div class="tree_icon_2"><img src="images/tree-icon.png"></div>
             <h1 class="testimonial_taital">Testimonial</h1>
@@ -203,23 +225,31 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- testimonial section end -->
       <!-- holidays section start -->
-      <div class="holidays_section layout_padding">
+      <div class="holidays_section layout_padding" id="from">
          <div class="container-fluid">
             <div class="background_bg">
                <div class="container">
-                  <div class="row">
-                     <div class="col-md-6">
+                  <div class="row holiday-block">
+                     <div class="col-md-6 holiday_img-block">
                         <div class="holiday_img"><img src="images/holiday-img.png"></div>
                      </div>
                      <div class="col-md-6">
                         <div class="holiday_taital_main">
-                           <h1 class="holiday_taital">Happy Holidays</h1>
-                           <h2 class="holiday_text">Many variations of passages of Lorem Ipsum available,</h2>
-                           <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there </p>
-                           <div class="read_bt_2"><a href="#">Read More</a></div>
+                           <h1 class="holiday_taital">Хороших праздников!</h1>
+                           <h2 class="holiday_text">С наступающим Новым Годом!</h2>
+                           <p class="dummy_text">Совсем немного дней осталось, <br>
+                              И на пороге — Новый год! <br>
+                              Пусть все, о чем давно мечталось, <br>
+                              Случится и произойдет. <br>
+                              
+                              Пусть счастье вместе с ним заглянет <br>
+                              И скажет: «Ладно, остаюсь!» <br>
+                              И, испугавшись новой гостьи, <br>
+                              Сбежит от вас навечно грусть! </p>
+                           <!-- <div class="read_bt_2"><a href="#">Read More</a></div> -->
                         </div>
                      </div>
                   </div>
@@ -229,27 +259,27 @@
       </div>
       <!-- holidays section end -->
       <!-- newsletter section start -->
-      <div class="newsletter_section layout_padding">
+      <!-- <div class="newsletter_section layout_padding">
          <div class="container">
             <div class="tree_icon_3"><img src="images/tree-icon.png"></div>
             <h1 class="newsletter_taital">Subscribe Our Newsletter</h1>
             <input type="text" class="email_text" placeholder="Enter Your Email" name="Enter Your Email">
             <div class="subscribe_bt"><a href="#">Subscribe</a></div>
          </div>
-      </div>
+      </div> -->
       <!-- newsletter section end -->
       <!-- footer section start -->
-      <div class="footer_section layout_padding">
+      <div class="footer_section layout_padding" id="map">
          <div class="container">
             <div class="date_main">
-               <h1 class="date_text">25 December</h1>
+               <h1 class="date_text">ШАЛАШ на карте</h1>
                <hr class="border_1">
-               <p class="ipsum_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+               <!-- <p class="ipsum_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p> -->
             </div>
-            <div class="contact_taital">Contact Now</div>
+            <!-- <div class="contact_taital">ШАЛАШ на карте</div> -->
             <div class="contact_section">
                <div class="row">
-                  <div class="col-lg-4 col-sm-12">
+                  <!-- <div class="col-lg-4 col-sm-12">
                      <div class="contact_main">
                         <form action="/action_page.php">
                            <div class="form-group">
@@ -267,11 +297,11 @@
                         </form>
                         <div class="send_btn"><a href="#">SEND</a></div>
                      </div>
-                  </div>
-                  <div class="col-lg-8 col-sm-12">
+                  </div> -->
+                  <div class="col-lg-12 col-sm-12">
                      <div class="map_main">
                         <div class="map-responsive">
-                           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2399.764144791921!2d91.40828340000002!3d53.0246027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x664a54403f2a2b70!2zNTPCsDAxJzI4LjYiTiA5McKwMjQnMjkuOCJF!5e0!3m2!1sen!2sru!4v1669889817315!5m2!1sen!2sru" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
                         </div>
                      </div>
                   </div>
@@ -279,17 +309,16 @@
             </div>
             <div class="social_icon">
                <ul>
-                  <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                  <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                  <li><a href="#"><img src="images/instagram-icon.png"></a></li>
-                  <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+                  <li><a target="_blank" href="https://www.instagram.com/shalash_19/?igshid=YmMyMTA2M2Y%3D"><img src="images/instagram.png"><span class="padding_left_10"></span></a></li>
+                  <li><a target="_blank" href="https://t.me/shalash_19_channel"><img src="images/telegram.png"><span class="padding_left_10"></span></a></li>
+                  <li><a target="_blank" href="https://www.youtube.com/watch?v=mCYoJs3tYXA&t=5s"><img src="images/youtube.png"><span class="padding_left_10"></span></a></li>
                </ul>
             </div>
          </div>
          <!-- copyright section start -->
          <div class="copyright_section">
             <div class="container">
-               <p class="copyright_text">Copyright 2019 All Right Reserved By <a href="https://html.design">Free  html Templates</a></p>
+               <p class="copyright_text">Все права защищены 2022 * <a href="https://html.design">SHALASH</a></p>
             </div>
          </div>
          <!-- copyright section end -->

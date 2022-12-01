@@ -22,8 +22,6 @@
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
 @import url(nice-select.css);
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
@@ -213,8 +211,8 @@ button {
 }
 
 .layout_padding {
-    padding-top: 90px;
-    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .padding_0 {
@@ -350,6 +348,7 @@ button {
     color: #ffffff;
     font-family: 'Open Sans', cursive;
     text-align: center;
+    text-shadow: #FC0 1px 0 1px;
 }
 
 .banner_taital_1 {
@@ -360,6 +359,7 @@ button {
     font-weight: bold;
     font-family: 'Open Sans', cursive;
     text-align: center;
+    text-shadow: #FC0 1px 0 1px;
 }
 
 .banner_text {
@@ -370,6 +370,7 @@ button {
     font-family: 'Open Sans', cursive;
     text-align: center;
     padding-top: 10px;
+    text-shadow: #FC0 1px 0 1px;
 }
 
 .read_bt {
@@ -398,6 +399,9 @@ button {
 
 .menu_main {
     width: 100%;
+    border: 2px solid white;
+    border-left: 0px;
+    border-right: 0px;
 }
 
 .costum_menu {
@@ -407,12 +411,15 @@ button {
 }
 
 .costum_menu ul {
+    display: flex;
+    justify-content: center;
     margin: 0px;
     padding: 0px;
 }
 
 .costum_menu li {
-    float: left;
+    /* float: left; */
+    /* float: right; */
     font-size: 18px;
     color: #ffffff;
     padding-left: 30px;
@@ -501,7 +508,7 @@ button {
     float: left;
     background-color: #ffffff;
     height: auto;
-    padding: 90px 0px;
+    /* padding: 90px 0px; */
     position: relative;
     z-index: -1;
 }
@@ -512,7 +519,7 @@ button {
     position: relative;
     top: 20px;
     left: -8px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .about_taital {
@@ -571,6 +578,14 @@ button {
     background-color: #ff3f5c;
 }
 
+/* My code */
+
+.about-block {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 
 /* about section end */
 
@@ -625,11 +640,11 @@ button {
 .gifts_section_2 {
     width: 100%;
     float: left;
-    background-image: url(../images/gifts-bg.png);
+    background-image: url(../images/footer-bg.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-bottom: 73px;
+    padding-bottom: 23px;
 }
 
 .images_main {
@@ -828,6 +843,7 @@ button {
     position: relative;
     top: -120px;
 }
+
 
 .holiday_taital_main {
     width: 100%;

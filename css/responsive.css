@@ -127,12 +127,51 @@
     }
 }
 
+@media (min-width: 1366px) and (max-width: 1920px){
+    .banner_section {
+        padding-top: 250px;
+        padding-bottom: 0px;
+    }
+    .holiday_img-block img {
+        width: 60%;
+    }
+    .holiday_img {
+        top: 25px;
+    }
+}
+
+@media (min-width: 1199px) and (max-width: 1366px){
+    .banner_section {
+        padding-top: 200px;
+        padding-bottom: 0px;
+    }
+    .holiday_img-block img {
+        width: 60%;
+    }
+    .holiday_img {
+        top: 25px;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .header_section {
         background-size: cover;
     }
+    .owl-next{
+        display: none;
+    }
+    .owl-prev{
+        display: none;
+    }
+    .holiday_img-block img {
+        width: 60%;
+    }
+    .holiday_img {
+        top: 25px;
+    }
     .banner_section {
         padding-top: 250px;
+        padding-bottom: 0px;
     }
     .banner_taital_1 {
         font-size: 50px;
@@ -182,6 +221,18 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .header_section {
         background-size: cover;
+    }
+    .menu_main {
+        border: 0px;
+    }
+    .owl-next{
+        display: none;
+    }
+    .owl-prev{
+        display: none;
+    }
+    .about-block__tree-picture {
+        display: none;  
     }
     .logo {
         width: 40%;
@@ -262,6 +313,9 @@
     .holiday_img {
         top: 25px;
     }
+    .holiday_img-block img {
+        width: 80%;
+    }
     .tree_icon_3 {
         width: 95%;
     }
@@ -285,6 +339,18 @@
         height: auto;
         background-size: 100%;
         background-repeat: no-repeat; */
+    }
+    .menu_main {
+        border: 0px;
+    }
+    .owl-next{
+        display: none;
+    }
+    .owl-prev{
+        display: none;
+    }
+    .about-block__tree-picture {
+        display: none;  
     }
     .logo {
         width: 40%;
@@ -379,7 +445,7 @@
         flex-direction: column-reverse;
     }
     .holiday_taital_main {
-        padding: 90px 0px 40px 0px;
+        padding: 10px 0px 40px 0px;
     }
     .holiday_taital {
         font-size: 30px;
@@ -390,6 +456,9 @@
     .holiday_img {
         width: 100%;
         top: 0;
+    }
+    .holiday_img-block img {
+        display: none;
     }
     .newsletter_taital {
         font-size: 38px;
@@ -426,6 +495,19 @@
 @media (max-width: 575px) {
     .header_section {
         background-size: cover;
+    }
+    .owl-carousel,.owl-carousel .owl-item {transform: translate3d(-995px, 0px, 0px); transition: all 0s ease 0s; width: 2889px; padding-left: 350px; padding-right: 350px;}
+    .menu_main {
+        border: 0px;
+    }
+    .owl-next{
+        display: none;
+    }
+    .owl-prev{
+        display: none;
+    }
+    .about-block__tree-picture {
+        display: none;  
     }
     .logo {
         width: 40%;
@@ -519,7 +601,7 @@
         flex-direction: column-reverse;
     }
     .holiday_taital_main {
-        padding: 90px 0px 40px 0px;
+        padding: 10px 0px 40px 0px;
     }
     .holiday_taital {
         font-size: 30px;
@@ -528,8 +610,11 @@
         font-size: 16px;
     }
     .holiday_img {
-        width: 100%;
+        width: 50%;
         top: 0;
+    }
+    .holiday_img-block img {
+        display: none;
     }
     .newsletter_taital {
         font-size: 38px;
