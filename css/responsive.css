@@ -496,7 +496,6 @@
     .header_section {
         background-size: cover;
     }
-    .owl-carousel,.owl-carousel .owl-item {transform: translate3d(-995px, 0px, 0px); transition: all 0s ease 0s; width: 2889px; padding-left: 350px; padding-right: 350px;}
     .menu_main {
         border: 0px;
     }
