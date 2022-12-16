@@ -128,6 +128,9 @@
 }
 
 @media (min-width: 1366px) and (max-width: 1920px){
+    .wrapper {
+        overflow-x: hidden;
+    }
     .banner_section {
         padding-top: 250px;
         padding-bottom: 0px;
@@ -141,6 +144,9 @@
 }
 
 @media (min-width: 1199px) and (max-width: 1366px){
+    .wrapper {
+        overflow-x: hidden;
+    }
     .banner_section {
         padding-top: 200px;
         padding-bottom: 0px;
@@ -154,6 +160,9 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .wrapper {
+        overflow-x: hidden;
+    }
     .header_section {
         background-size: cover;
     }
@@ -219,6 +228,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    body, html{
+        overflow-x:hidden!important;
+    }
+    .wrapper {
+        overflow-x: hidden;
+    }
     .header_section {
         background-size: cover;
     }
@@ -331,6 +346,12 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    body, html{
+        overflow-x:hidden!important;
+    }
+    .wrapper {
+        overflow-x: hidden;
+    }
     .header_section {
         background-size: cover;
         /* width: auto;
@@ -493,6 +514,12 @@
 }
 
 @media (max-width: 575px) {
+    body, html{
+        overflow-x:hidden!important;
+    }
+    .wrapper {
+        overflow-x: hidden;
+    }
     .header_section {
         background-size: cover;
     }
@@ -646,6 +673,4 @@
 .header_section.header_bg .main {
     display: none;
 }
-
-
 }
