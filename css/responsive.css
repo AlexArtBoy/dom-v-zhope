@@ -128,15 +128,15 @@
 }
 
 @media (min-width: 1366px) and (max-width: 1920px){
-    .wrapper {
-        overflow-x: hidden;
-    }
     .banner_section {
         padding-top: 250px;
         padding-bottom: 0px;
     }
+    .holiday_img-block {
+        height: 500px;
+    }
     .holiday_img-block img {
-        width: 60%;
+        width: 75%;
     }
     .holiday_img {
         top: 25px;
@@ -144,25 +144,23 @@
 }
 
 @media (min-width: 1199px) and (max-width: 1366px){
-    .wrapper {
-        overflow-x: hidden;
-    }
     .banner_section {
         padding-top: 200px;
         padding-bottom: 0px;
     }
+    .holiday_img-block {
+        height: 500px;
+    }
     .holiday_img-block img {
-        width: 60%;
+        width: 75%;
     }
     .holiday_img {
         top: 25px;
     }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .wrapper {
-        overflow-x: hidden;
-    }
     .header_section {
         background-size: cover;
     }
@@ -172,12 +170,15 @@
     .owl-prev{
         display: none;
     }
+    .holiday_taital_main{
+        padding-top: 20px;
+    }
     .holiday_img-block img {
-        width: 60%;
+        width: 75%;
     }
-    .holiday_img {
+    /* .holiday_img {
         top: 25px;
-    }
+    } */
     .banner_section {
         padding-top: 250px;
         padding-bottom: 0px;
@@ -228,12 +229,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    body, html{
-        overflow-x:hidden!important;
-    }
-    .wrapper {
-        overflow-x: hidden;
-    }
     .header_section {
         background-size: cover;
     }
@@ -258,6 +253,9 @@
     .navbar-toggler {
         background-color: #fff;
         border: 1px solid transparent;
+    }
+    .holiday_img-block img {
+        width: 75%;
     }
     .main {
         display: none;
@@ -346,12 +344,6 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    body, html{
-        overflow-x:hidden!important;
-    }
-    .wrapper {
-        overflow-x: hidden;
-    }
     .header_section {
         background-size: cover;
         /* width: auto;
@@ -514,12 +506,6 @@
 }
 
 @media (max-width: 575px) {
-    body, html{
-        overflow-x:hidden!important;
-    }
-    .wrapper {
-        overflow-x: hidden;
-    }
     .header_section {
         background-size: cover;
     }

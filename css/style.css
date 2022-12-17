@@ -14,11 +14,11 @@
 @import url(animate.min.css);
 @import url(normalize.css);
 @import url(icomoon.css);
-@import url(css/font-awesome.min.css);
+/* @import url(css/font-awesome.min.css); */
 @import url(meanmenu.css);
 @import url(owl.carousel.min.css);
-@import url(swiper.min.css);
-@import url(slick.css);
+/* @import url(swiper.min.css); */
+/* @import url(slick.css); */
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
 @import url(nice-select.css);
@@ -27,13 +27,11 @@
 
 * {
     box-sizing: border-box !important;
-    overflow-x:hidden!important;
     transition: ease all 0.5s;
 }
 
 html {
     scroll-behavior: smooth;
-    overflow-x:hidden!important;
 }
 
 body {
@@ -512,7 +510,7 @@ button {
     height: auto;
     /* padding: 90px 0px; */
     position: relative;
-    z-index: -1;
+    z-index: 5;
 }
 
 .tree_icon {
@@ -857,7 +855,6 @@ button {
     width: 100%;
     float: left;
     padding: 110px 0px 30px 0px;
-    overflow-y: hidden;
    
 }
 
